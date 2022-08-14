@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restourant - Sedra</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <a href="#" class="brand">Sedra</a>
+        <div class="menu">
+            <div class="btn">
+                <i class="fas fa-times close-btn"></i>
+            </div>
+            <a href="#">Home</a>
+            <a href="#menu">Menu</a>
+            <a href="#ordernow">Order Now</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="btn">
+            <i class="fas fa-bars menu-btn"></i>
+        </div>
+    </header>
+    <section class="section-main">
+        <h1>Welcome</h1>
+    </section>
+    <section class="section-two">
+        <div class="section-two-text">
+            <h1>Enjoy<br>in<br>your<br>food!</h1>
+        </div>
+        <div>
+            <img src="Enjoy.jpg" class="section-two-img">
+        </div>
+    </section>
+    <section id="menu" class="menutable">
+        <button onclick="foodtable()">Food</button>
+        <button onclick="deserttable()">Desert</button>
+        <div id="foodtable">
+            <table style="width:100%;text-align: center; border-spacing: 0;">
+                <tr>
+                    <th style="border-bottom:3px solid black;border-right: 3px solid black;">Food:</th>
+                    <th style="border-bottom:3px solid black;border-right: 3px solid black;">Kg:</th>
+                    <th style="border-bottom:3px solid black">Price:</th>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Pizza</td>
+                    <td style="border-bottom:3px solid black;">0,3</td>
+                    <td style="border-bottom:3px solid black;">$3</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Sushi</td>
+                    <td style="border-bottom:3px solid black;">0,2</td>
+                    <td style="border-bottom:3px solid black;">$10</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Hamburger</td>
+                    <td style="border-bottom:3px solid black;">0,25</td>
+                    <td style="border-bottom:3px solid black;">$3</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Chicken Sandwich</td>
+                    <td style="border-bottom:3px solid black;">0,15</td>
+                    <td style="border-bottom:3px solid black;">$2</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">FIsh</td>
+                    <td style="border-bottom:3px solid black;">0,8</td>
+                    <td style="border-bottom:3px solid black;">$27</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Family Pizza</td>
+                    <td style="border-bottom:3px solid black;">1,5</td>
+                    <td style="border-bottom:3px solid black;">$23</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Bread</td>
+                    <td style="border-bottom:3px solid black;">0,43</td>
+                    <td style="border-bottom:3px solid black;">$2.5</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Pepperoni</td>
+                    <td style="border-bottom:3px solid black;">0,8</td>
+                    <td style="border-bottom:3px solid black;">$21</td>
+                </tr>
+                <tr>
+                    <td>Chicken</td>
+                    <td>0,45</td>
+                    <td>$6</td>
+                </tr>
+            </table>
+        </div>
+
+        <div id="deserttable">
+            <table style="width:100%;text-align: center; border-spacing: 0;">
+                <tr>
+                    <th style="border-bottom:3px solid black;border-right: 3px solid black;">Dessert:</th>
+                    <th style="border-bottom:3px solid black;border-right: 3px solid black;">Kg:</th>
+                    <th style="border-bottom:3px solid black;border-right: 3px solid black;">Piece:</th>
+                    <th style="border-bottom:3px solid black">Price:</th>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">King Cake</td>
+                    <td style="border-bottom:3px solid black;">0,6</td>
+                    <td style="border-bottom:3px solid black;">--</td>
+                    <td style="border-bottom:3px solid black;">$10</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Coconut Cake</td>
+                    <td style="border-bottom:3px solid black;">0,6</td>
+                    <td style="border-bottom:3px solid black;">--</td>
+                    <td style="border-bottom:3px solid black;">$13</td>
+                </tr>
+                <tr>
+                    <td style="border-bottom:3px solid black;">Strawberry cake</td>
+                    <td style="border-bottom:3px solid black;">--</td>
+                    <td style="border-bottom:3px solid black;">1</td>
+                    <td style="border-bottom:3px solid black;">$1</td>
+                </tr>
+                <tr>
+                    <td>Ice Cream Cake</td>
+                    <td>--</td>
+                    <td>1</td>
+                    <td>$2</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <section>
+        <div class="ourserviceshome">
+            <div class="buildingawebsitehome"><img src="QualityFood100.png">
+                <p>100% Quality food</p><a href="#"><button type="button">MORE</button></a>
+            </div>
+            <div class="finishedprojectshome"><img src="Delivery.png">
+                <p>Home delivery</p><a href="#ordernow"><button>ORDER NOW</button></a>
+            </div>
+            <div class="hostingservicehome"><img src="LongExperience.png">
+                <p>3 years of experience</p><a href="#"><button>MORE</button></a>
+            </div>
+        </div>
+    </section>
+    <section id="ordernow">
+        <div class="orderformandmap">
+            <form id="survey-form">
+                <fieldset>
+                    <label class="newinput" id="name-label">
+                        <input type="text" id="name" name="name" placeholder="Name" required />
+                    </label>
+                    <label class="newinput" id="piecekg-label">
+                        <input type="text" id="piecekg" name="piecekg" placeholder="Your Adress" required />
+                    </label>
+                    <label class="newinput" id="food-label">
+                        <input type="text" id="food" name="food" placeholder="What food do you want?" required />
+                    </label>
+                    <label class="newinput" id="adress-label">
+                        <input type="text" id="adress" name="adress" placeholder="How much kg/piece you want?"
+                            required />
+                    </label>
+                </fieldset>
+                <input type="submit" id="submit" value="Submit">
+            </form>
+            <div class="mapa">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d25612555.72456396!2d-35.38448404038251!3d38.406052975796584!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sbs!2sba!4v1653418794810!5m2!1sbs!2sba"
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <section id="subscribe">
+        <form id="form" action="" style="background-color: rgb(4, 146, 240);">
+            <input id="email" name="email" type="email" placeholder="Enter your email address" />
+            <input id="submit" type="submit" value="SUBSCRIBE" style="background-color: yellow;" />
+        </form>
+    </section>
+
+    <footer id="footer">
+        <section id="contact">
+
+            <div id="follow-us">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li><i class="fab fa-facebook"></i> <a href=""> Facebook</a></li>
+                    <li><i class="fab fa-twitter"></i> <a href=""> Twitter</a></li>
+                    <li><i class="fab fa-instagram"></i> <a href=""> Instagram</a></li>
+                </ul>
+            </div>
+
+            <div id="contact-info">
+                <h2>Contact Info</h2>
+                <ul>
+                    <li><i class="fas fa-envelope"></i> tabisdesign@gmail.com</li>
+                    <li><i class="fas fa-phone"></i> +1 23456789</li>
+                </ul>
+            </div>
+        </section>
+
+        <div id="copyright">Copyright 2022, <a href="">Tabis Design</a></div>
+    </footer>
+
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="text/javascript">
+
+        function sendEmail() {
+            Email.send({
+                Host: "smtp.gmail.com",
+                Username: "tabisdesign@gmail.com",
+                Password: "drfhvbxuuaxccuum",
+                To: 'tabisdesign@gmail.com',
+                From: document.getElementById("name").value,
+                Subject: "New order",
+                Body: document.getElementById("name").value,
+                Body: document.getElementById("food").value,
+                Body: document.getElementById("address").value,
+                Body: document.getElementById("kg/piece").value,
+            }).then(
+                message => alert(message)
+            );
+        }
+
+        window.addEventListener("scroll", function () {
+            var header = document.querySelector("header");
+            header.classList.toggle('sticky', window.scrollY > 0);
+        });
+
+        var menu = document.querySelector('.menu');
+        var menuBtn = document.querySelector('.menu-btn');
+        var closeBtn = document.querySelector('.close-btn');
+
+        menuBtn.addEventListener("click", () => {
+            menu.classList.add('active');
+        });
+
+        closeBtn.addEventListener("click", () => {
+            menu.classList.remove('active');
+        });
+
+
+
+        function foodtable() {
+            var x = document.getElementById("foodtable");
+            var y = document.getElementById("deserttable");
+            x.style.display = "block";
+            y.style.display = "none";
+        }
+        function deserttable() {
+            var x = document.getElementById("foodtable");
+            var y = document.getElementById("deserttable");
+            y.style.display = "block";
+            x.style.display = "none";
+        }
+    </script>
+</body>
+
+</html>
